@@ -1,6 +1,6 @@
 body {
     overflow: hidden;
-    background-color: aquamarine;
+    background-color: rgb(187, 231, 216);
 }
 
 .imgBlack {
@@ -19,4 +19,24 @@ body {
     border-radius: 50%;
 
     position: absolute;
+}
+
+.imgFirstBar,
+.imgSecondBar {
+    width: 40px;
+    height: 150px;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.imgFirstBar {
+    top: 50%;
+    margin-top: -75px;
+}
+
+.imgSecondBar {
+    top: 50%;
+    margin-top: -75px;
+    left: 100%;
+    margin-left: -45px;
 }
